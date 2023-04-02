@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9DD37E729D59ACB00D4D581 /* nettbutikk__Henryy_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD37E629D59ACB00D4D581 /* nettbutikk__Henryy_App.swift */; };
+		B9DD37E929D59ACB00D4D581 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD37E829D59ACB00D4D581 /* ContentView.swift */; };
+		B9DD37EB29D59ACD00D4D581 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DD37EA29D59ACD00D4D581 /* Assets.xcassets */; };
+		B9DD37EE29D59ACD00D4D581 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9DD37ED29D59ACD00D4D581 /* Preview Assets.xcassets */; };
+		B9DD37F529D59B9200D4D581 /* ProductListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD37F429D59B9200D4D581 /* ProductListViewModel.swift */; };
+		B9DD37FB29D59C4D00D4D581 /* ProductDetailView.swift .swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD37FA29D59C4D00D4D581 /* ProductDetailView.swift .swift */; };
+		B9DD37FE29D59D0E00D4D581 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = B9DD37FD29D59D0E00D4D581 /* SDWebImageSwiftUI */; };
+		B9DD380C29D5A45F00D4D581 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD380B29D5A45F00D4D581 /* Product.swift */; };
+		B9DD380E29D5A85400D4D581 /* api.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD380D29D5A85400D4D581 /* api.swift */; };
+		B9DD382A29D5AAEC00D4D581 /* ProductRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD382929D5AAEC00D4D581 /* ProductRowView.swift */; };
+		B9DD387A29D88C4A00D4D581 /* cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD387929D88C4A00D4D581 /* cart.swift */; };
+		B9DD387D29D88D0300D4D581 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD387C29D88D0300D4D581 /* CartView.swift */; };
+		B9DD387F29D9E43A00D4D581 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD387E29D9E43A00D4D581 /* user.swift */; };
+		B9DD388129D9E46C00D4D581 /* UserListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD388029D9E46C00D4D581 /* UserListViewModel.swift */; };
+		B9DD388329D9E48800D4D581 /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD388229D9E48800D4D581 /* UserDetailView.swift */; };
+		B9DD388529D9E49E00D4D581 /* userRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD388429D9E49E00D4D581 /* userRowView.swift */; };
+		B9DD388729D9E4B200D4D581 /* userListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD388629D9E4B200D4D581 /* userListView.swift */; };
+		B9DD388929D9E72F00D4D581 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD388829D9E72F00D4D581 /* LoginView.swift */; };
+		B9DD388B29DA022B00D4D581 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9DD388A29DA022B00D4D581 /* ProfileView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B9DD37E329D59ACB00D4D581 /* nettbutikk (Henryy).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "nettbutikk (Henryy).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9DD37E629D59ACB00D4D581 /* nettbutikk__Henryy_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nettbutikk__Henryy_App.swift; sourceTree = "<group>"; };
+		B9DD37E829D59ACB00D4D581 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B9DD37EA29D59ACD00D4D581 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9DD37ED29D59ACD00D4D581 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B9DD37F429D59B9200D4D581 /* ProductListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewModel.swift; sourceTree = "<group>"; };
+		B9DD37FA29D59C4D00D4D581 /* ProductDetailView.swift .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ProductDetailView.swift .swift"; sourceTree = "<group>"; };
+		B9DD380B29D5A45F00D4D581 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		B9DD380D29D5A85400D4D581 /* api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = api.swift; sourceTree = "<group>"; };
+		B9DD382929D5AAEC00D4D581 /* ProductRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRowView.swift; sourceTree = "<group>"; };
+		B9DD387929D88C4A00D4D581 /* cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cart.swift; sourceTree = "<group>"; };
+		B9DD387C29D88D0300D4D581 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		B9DD387E29D9E43A00D4D581 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		B9DD388029D9E46C00D4D581 /* UserListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewModel.swift; sourceTree = "<group>"; };
+		B9DD388229D9E48800D4D581 /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
+		B9DD388429D9E49E00D4D581 /* userRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userRowView.swift; sourceTree = "<group>"; };
+		B9DD388629D9E4B200D4D581 /* userListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userListView.swift; sourceTree = "<group>"; };
+		B9DD388829D9E72F00D4D581 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B9DD388A29DA022B00D4D581 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9DD37E029D59ACB00D4D581 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9DD37FE29D59D0E00D4D581 /* SDWebImageSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9DD37DA29D59ACB00D4D581 = {
+			isa = PBXGroup;
+			children = (
+				B9DD37E529D59ACB00D4D581 /* nettbutikk (Henryy) */,
+				B9DD37E429D59ACB00D4D581 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9DD37E429D59ACB00D4D581 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9DD37E329D59ACB00D4D581 /* nettbutikk (Henryy).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9DD37E529D59ACB00D4D581 /* nettbutikk (Henryy) */ = {
+			isa = PBXGroup;
+			children = (
+				B9DD389229DA1F8800D4D581 /* user */,
+				B9DD389129DA1F6D00D4D581 /* cart */,
+				B9DD389029DA1F3D00D4D581 /* Products */,
+				B9DD37E629D59ACB00D4D581 /* nettbutikk__Henryy_App.swift */,
+				B9DD37E829D59ACB00D4D581 /* ContentView.swift */,
+				B9DD380D29D5A85400D4D581 /* api.swift */,
+				B9DD388829D9E72F00D4D581 /* LoginView.swift */,
+				B9DD388A29DA022B00D4D581 /* ProfileView.swift */,
+				B9DD37EA29D59ACD00D4D581 /* Assets.xcassets */,
+				B9DD37EC29D59ACD00D4D581 /* Preview Content */,
+			);
+			path = "nettbutikk (Henryy)";
+			sourceTree = "<group>";
+		};
+		B9DD37EC29D59ACD00D4D581 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B9DD37ED29D59ACD00D4D581 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B9DD389029DA1F3D00D4D581 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9DD37F429D59B9200D4D581 /* ProductListViewModel.swift */,
+				B9DD37FA29D59C4D00D4D581 /* ProductDetailView.swift .swift */,
+				B9DD382929D5AAEC00D4D581 /* ProductRowView.swift */,
+				B9DD380B29D5A45F00D4D581 /* Product.swift */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		B9DD389129DA1F6D00D4D581 /* cart */ = {
+			isa = PBXGroup;
+			children = (
+				B9DD387C29D88D0300D4D581 /* CartView.swift */,
+				B9DD387929D88C4A00D4D581 /* cart.swift */,
+			);
+			path = cart;
+			sourceTree = "<group>";
+		};
+		B9DD389229DA1F8800D4D581 /* user */ = {
+			isa = PBXGroup;
+			children = (
+				B9DD388029D9E46C00D4D581 /* UserListViewModel.swift */,
+				B9DD388229D9E48800D4D581 /* UserDetailView.swift */,
+				B9DD388429D9E49E00D4D581 /* userRowView.swift */,
+				B9DD388629D9E4B200D4D581 /* userListView.swift */,
+				B9DD387E29D9E43A00D4D581 /* user.swift */,
+			);
+			path = user;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9DD37E229D59ACB00D4D581 /* nettbutikk (Henryy) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9DD37F129D59ACD00D4D581 /* Build configuration list for PBXNativeTarget "nettbutikk (Henryy)" */;
+			buildPhases = (
+				B9DD37DF29D59ACB00D4D581 /* Sources */,
+				B9DD37E029D59ACB00D4D581 /* Frameworks */,
+				B9DD37E129D59ACB00D4D581 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "nettbutikk (Henryy)";
+			packageProductDependencies = (
+				B9DD37FD29D59D0E00D4D581 /* SDWebImageSwiftUI */,
+			);
+			productName = "nettbutikk (Henryy)";
+			productReference = B9DD37E329D59ACB00D4D581 /* nettbutikk (Henryy).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9DD37DB29D59ACB00D4D581 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B9DD37E229D59ACB00D4D581 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B9DD37DE29D59ACB00D4D581 /* Build configuration list for PBXProject "nettbutikk (Henryy)" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9DD37DA29D59ACB00D4D581;
+			packageReferences = (
+				B9DD37FC29D59D0E00D4D581 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = B9DD37E429D59ACB00D4D581 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9DD37E229D59ACB00D4D581 /* nettbutikk (Henryy) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9DD37E129D59ACB00D4D581 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9DD37EE29D59ACD00D4D581 /* Preview Assets.xcassets in Resources */,
+				B9DD37EB29D59ACD00D4D581 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9DD37DF29D59ACB00D4D581 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9DD380C29D5A45F00D4D581 /* Product.swift in Sources */,
+				B9DD388729D9E4B200D4D581 /* userListView.swift in Sources */,
+				B9DD387A29D88C4A00D4D581 /* cart.swift in Sources */,
+				B9DD388329D9E48800D4D581 /* UserDetailView.swift in Sources */,
+				B9DD37FB29D59C4D00D4D581 /* ProductDetailView.swift .swift in Sources */,
+				B9DD382A29D5AAEC00D4D581 /* ProductRowView.swift in Sources */,
+				B9DD387D29D88D0300D4D581 /* CartView.swift in Sources */,
+				B9DD37E929D59ACB00D4D581 /* ContentView.swift in Sources */,
+				B9DD388B29DA022B00D4D581 /* ProfileView.swift in Sources */,
+				B9DD388929D9E72F00D4D581 /* LoginView.swift in Sources */,
+				B9DD387F29D9E43A00D4D581 /* user.swift in Sources */,
+				B9DD388129D9E46C00D4D581 /* UserListViewModel.swift in Sources */,
+				B9DD388529D9E49E00D4D581 /* userRowView.swift in Sources */,
+				B9DD37E729D59ACB00D4D581 /* nettbutikk__Henryy_App.swift in Sources */,
+				B9DD37F529D59B9200D4D581 /* ProductListViewModel.swift in Sources */,
+				B9DD380E29D5A85400D4D581 /* api.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B9DD37EF29D59ACD00D4D581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9DD37F029D59ACD00D4D581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9DD37F229D59ACD00D4D581 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nettbutikk (Henryy)/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "s.nettbutikk--Henryy-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9DD37F329D59ACD00D4D581 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nettbutikk (Henryy)/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "s.nettbutikk--Henryy-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9DD37DE29D59ACB00D4D581 /* Build configuration list for PBXProject "nettbutikk (Henryy)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9DD37EF29D59ACD00D4D581 /* Debug */,
+				B9DD37F029D59ACD00D4D581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9DD37F129D59ACD00D4D581 /* Build configuration list for PBXNativeTarget "nettbutikk (Henryy)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9DD37F229D59ACD00D4D581 /* Debug */,
+				B9DD37F329D59ACD00D4D581 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B9DD37FC29D59D0E00D4D581 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B9DD37FD29D59D0E00D4D581 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B9DD37FC29D59D0E00D4D581 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B9DD37DB29D59ACB00D4D581 /* Project object */;
+}
